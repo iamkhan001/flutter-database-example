@@ -25,9 +25,15 @@ class EmployeePageList extends State{
       ),
       body: new Container(
         padding: new EdgeInsets.all(16.0),
-        child: new Container(
+        child: Center(
+         child: new Container(
+             child:  new Text(
+                 "Hellow World!",
+                 style: new TextStyle(
+                     fontWeight: FontWeight.normal, fontSize: 18.0)),
 
-        ),
+         ),
+        )
       ),
     );
 
